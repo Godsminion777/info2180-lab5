@@ -1,1 +1,85 @@
-/* Add your own styles */
+body header {
+    background-color: #149229;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center; 
+}
+
+body header img {
+    margin-right: 10px;
+    border-radius: 50%;
+    flex: none;
+    height: 200px;
+    width: 200px;
+}
+
+body h1 {
+    margin: auto;
+    font-size: 70px;
+    flex: 1;
+}
+
+body main {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+#controls {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#controls label {
+    font-size: 20px;
+    margin-right: 10px;
+    align-self: center;
+}
+#controls input {
+    font-size: 18px;
+    padding: 5px;
+    width: 500px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+    align-self: center;
+}
+#controls button {
+    font-size: 18px;
+    margin: 10px;
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    
+}
+
+#result { 
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    background-color: #a0e7ae;
+    padding: 10px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+}
+#result table {
+    margin: auto;
+    width: 100%;
+}   
+
+
+#lookup {
+    background-color: #3b85e7;
+    color: white;
+}
+#CityLookup {
+    background-color: #2e992e;
+    color: white;
+}
+
+#control button:hover {
+    background-color: #c00505;
+}
